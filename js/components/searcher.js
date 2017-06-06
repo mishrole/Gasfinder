@@ -4,7 +4,7 @@ const Searcher = () => {
 	const parent = $('<div class="searcher"></div>');
 	const form = $('<form></form>');
 	const divSearcher = $('<div class="input-field">');
-	const input = $('<input id="search" type="search" required>');
+	const input = $('<input id="search" type="search" placeholder="Ingresa tu distrito de búsqueda">');
 	const label = $('<label class="label-icon" for="search"</label>');
 	const icon = $('<i class="material-icons">search</i>');
 
@@ -13,12 +13,6 @@ const Searcher = () => {
 	divSearcher.append(label);
 	form.append(divSearcher);
 	parent.append(form);
-
-	for(var i = 0; i < state.stations.length; i++){
-		if(state.stations[i].district == 'San Isidro'){
-			console.log(state.stations[i].name);
-		}
-	}
 
 	return parent;
 }
