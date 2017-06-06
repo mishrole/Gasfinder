@@ -8,7 +8,7 @@ const Header = (update) => {
 	const icon = $('<i class="fa fa-chevron-left" aria-hidden="true"></i>');
 
 	container.append(title);
-	container.append(searcher());
+	container.append(Searcher());
 	header.append(container);
 
 	return header;

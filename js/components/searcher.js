@@ -1,4 +1,6 @@
-const searcher = () => {
+'use strict';
+
+const Searcher = () => {
 	const parent = $('<div class="searcher"></div>');
 	const form = $('<form></form>');
 	const divSearcher = $('<div class="input-field">');
@@ -11,6 +13,12 @@ const searcher = () => {
 	divSearcher.append(label);
 	form.append(divSearcher);
 	parent.append(form);
+
+	for(var i = 0; i < state.stations.length; i++){
+		if(state.stations[i].district == 'San Isidro'){
+			console.log(state.stations[i].name);
+		}
+	}
 
 	return parent;
 }
