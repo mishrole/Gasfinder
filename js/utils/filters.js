@@ -18,8 +18,8 @@ const filterByDistrict = (stations,query) => {
 	const showFilter =  $('<div class="show-filter container"></div>');
 
 	state.stations.forEach((stations) => {
-		showFilter.append(printData(stations));
 
+		showFilter.append(printData(stations));
 
 	});
 

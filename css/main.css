@@ -10,7 +10,6 @@ header {
   font-size: 18px;
   height: 135px;
   line-height: 56px;
-  padding-left: 16px;
   background-color: #F44336;
 }
 
@@ -34,13 +33,10 @@ input#search:focus{
 
 .data-container{
   color: black;
+  padding: 15px 0;
+  background: #fff;
 }
 
-.show-filter{
-  padding-left: 16px;
-  margin-top: 15px;
-}
-
-.data-container{
-  margin-bottom: 15px;
+.data-container:hover{
+  background: rgba(0,0,0,0.1);
 }
