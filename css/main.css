@@ -31,3 +31,16 @@ input#search{
 input#search:focus{
   color: #333;
 }
+
+.data-container{
+  color: black;
+}
+
+.show-filter{
+  padding-left: 16px;
+  margin-top: 15px;
+}
+
+.data-container{
+  margin-bottom: 15px;
+}

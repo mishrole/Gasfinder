@@ -9,7 +9,6 @@ const Header = (update) => {
 
 	container.append(title);
 	container.append(Searcher());
-	container.append(filterByDistrict())
 	header.append(container);
 
 	return header;
